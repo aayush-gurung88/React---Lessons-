@@ -1,0 +1,32 @@
+
+body{
+    background-image: url(assets/maHo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+    /* this is to center the clock */
+
+    display: flex;
+    justify-content: center ;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock-container{
+    backdrop-filter: blur(3px) ;
+    width: 100vw;
+    padding: 10px 0px;
+}
+
+.clock{
+
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px ;
+    text-align: center;
+}
