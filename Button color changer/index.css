@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+
+.color-box{
+  
+    border: solid 5px black ;
+    border-radius: 20px;
+    margin: 30px 100px;
+}
